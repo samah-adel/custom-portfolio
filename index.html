@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Client Name | Portfolio</title>
+    <meta name="description" content="Client Name: about, selected works, services and contact details.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Nunito+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainnav" data-bs-smooth-scroll="true" tabindex="0">
+
+    <div id="progress" aria-hidden="true"></div>
+
+    <nav id="mainnav" class="navbar navbar-expand-md fixed-top site-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><span class="logo-dot"></span>Client Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto align-items-md-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+                    <li class="nav-item ms-md-2"><a class="btn btn-brand btn-sm px-3" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <span class="shape s1" aria-hidden="true"></span>
+        <span class="shape s2" aria-hidden="true"></span>
+        <span class="shape s3" aria-hidden="true"></span>
+        <div class="container position-relative">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7">
+                    <span class="pill"><i class="bi bi-stars"></i> Available for new projects</span>
+                    <h1>I create <span id="rotator" class="rot">websites</span><br>people remember.</h1>
+                    <p class="lead">Write one or two sentences here: what the client does, who it is for, and what makes
+                        the work different.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#works" class="btn btn-brand btn-lg">View my works <i
+                                class="bi bi-arrow-down-short"></i></a>
+                        <a href="#contact" class="btn btn-outline-brand btn-lg">Get in touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="photo-wrap">
+                        <div class="hero-photo" role="img" aria-label="Photo of Client Name"><span>Add photo</span>
+                        </div>
+                        <div class="float-badge b1"><i class="bi bi-patch-check-fill"></i> 5 years experience</div>
+                        <div class="float-badge b2"><i class="bi bi-star-fill"></i> 4.9 client rating</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="marquee" aria-label="Tools and brands">
+        <div class="track">
+            <span>Brand one</span><span>Brand two</span><span>Brand three</span><span>Brand four</span><span>Brand
+                five</span><span>Brand six</span>
+            <span aria-hidden="true">Brand one</span><span aria-hidden="true">Brand two</span><span
+                aria-hidden="true">Brand three</span><span aria-hidden="true">Brand four</span><span
+                aria-hidden="true">Brand five</span><span aria-hidden="true">Brand six</span>
+        </div>
+    </div>
+
+    <section class="stats">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-6 col-md-3"><strong><span class="count" data-to="50">0</span>+</strong><span>Projects
+                        done</span></div>
+                <div class="col-6 col-md-3"><strong><span class="count" data-to="30">0</span>+</strong><span>Happy
+                        clients</span></div>
+                <div class="col-6 col-md-3"><strong><span class="count" data-to="5">0</span></strong><span>Years of
+                        experience</span></div>
+                <div class="col-6 col-md-3"><strong><span class="count"
+                            data-to="100">0</span>%</strong><span>Satisfaction</span></div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-5 reveal">
+                        <div class="about-photo" role="img" aria-label="Portrait of Client Name"><span>Add photo</span>
+                        </div>
+                    </div>
+                    <div class="col-md-7 reveal">
+                        <h2 class="title">About me</h2>
+                        <p>Write 3 to 4 sentences here: who the client is, where they work, how they started and what
+                            they care about.</p>
+                        <p>Add one sentence about how they work with customers.</p>
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="d-flex justify-content-between"><span>Skill one</span><span>90%</span></div>
+                                <div class="bar"><i data-w="90"></i></div>
+                            </div>
+                            <div class="skill">
+                                <div class="d-flex justify-content-between"><span>Skill two</span><span>80%</span></div>
+                                <div class="bar"><i data-w="80"></i></div>
+                            </div>
+                            <div class="skill">
+                                <div class="d-flex justify-content-between"><span>Skill three</span><span>95%</span>
+                                </div>
+                                <div class="bar"><i data-w="95"></i></div>
+                            </div>
+                        </div>
+                        <a href="cv.pdf" class="btn btn-brand mt-2" download><i class="bi bi-download"></i> Download
+                            CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORKS -->
+        <section class="section alt" id="works">
+            <div class="container">
+                <h2 class="title reveal">Works</h2>
+                <div class="d-flex flex-wrap gap-2 mb-4 reveal" role="group" aria-label="Filter works">
+                    <button class="chip active" data-filter="all">All</button>
+                    <button class="chip" data-filter="web">Web</button>
+                    <button class="chip" data-filter="design">Design</button>
+                    <button class="chip" data-filter="brand">Branding</button>
+                </div>
+                <div class="row g-4" id="works-grid">
+                    <div class="col-md-6 col-lg-4 item reveal" data-type="web"><a href="#" class="work">
+                            <div class="work-thumb t1" role="img" aria-label="Work one">
+                                <div class="overlay"><i class="bi bi-arrow-up-right"></i></div>
+                            </div>
+                            <h3>Work one</h3>
+                            <p>Short description of the project and the result.</p>
+                        </a></div>
+                    <div class="col-md-6 col-lg-4 item reveal" data-type="design"><a href="#" class="work">
+                            <div class="work-thumb t2" role="img" aria-label="Work two">
+                                <div class="overlay"><i class="bi bi-arrow-up-right"></i></div>
+                            </div>
+                            <h3>Work two</h3>
+                            <p>Short description of the project and the result.</p>
+                        </a></div>
+                    <div class="col-md-6 col-lg-4 item reveal" data-type="brand"><a href="#" class="work">
+                            <div class="work-thumb t3" role="img" aria-label="Work three">
+                                <div class="overlay"><i class="bi bi-arrow-up-right"></i></div>
+                            </div>
+                            <h3>Work three</h3>
+                            <p>Short description of the project and the result.</p>
+                        </a></div>
+                    <div class="col-md-6 col-lg-4 item reveal" data-type="web"><a href="#" class="work">
+                            <div class="work-thumb t4" role="img" aria-label="Work four">
+                                <div class="overlay"><i class="bi bi-arrow-up-right"></i></div>
+                            </div>
+                            <h3>Work four</h3>
+                            <p>Short description of the project and the result.</p>
+                        </a></div>
+                    <div class="col-md-6 col-lg-4 item reveal" data-type="design"><a href="#" class="work">
+                            <div class="work-thumb t5" role="img" aria-label="Work five">
+                                <div class="overlay"><i class="bi bi-arrow-up-right"></i></div>
+                            </div>
+                            <h3>Work five</h3>
+                            <p>Short description of the project and the result.</p>
+                        </a></div>
+                    <div class="col-md-6 col-lg-4 item reveal" data-type="brand"><a href="#" class="work">
+                            <div class="work-thumb t6" role="img" aria-label="Work six">
+                                <div class="overlay"><i class="bi bi-arrow-up-right"></i></div>
+                            </div>
+                            <h3>Work six</h3>
+                            <p>Short description of the project and the result.</p>
+                        </a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="section" id="services">
+            <div class="container">
+                <h2 class="title reveal">Services</h2>
+                <div class="row g-4">
+                    <div class="col-md-4 reveal">
+                        <div class="service">
+                            <div class="icon"><i class="bi bi-brush"></i></div>
+                            <h3>Service one</h3>
+                            <p>One or two sentences describing what the client gets.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <div class="service">
+                            <div class="icon"><i class="bi bi-code-slash"></i></div>
+                            <h3>Service two</h3>
+                            <p>One or two sentences describing what the client gets.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <div class="service">
+                            <div class="icon"><i class="bi bi-graph-up-arrow"></i></div>
+                            <h3>Service three</h3>
+                            <p>One or two sentences describing what the client gets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROCESS -->
+        <section class="section alt" id="process">
+            <div class="container">
+                <h2 class="title reveal">How I work</h2>
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-3 reveal">
+                        <div class="step"><span>1</span>
+                            <h3>Discover</h3>
+                            <p>We talk about your goals and your audience.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 reveal">
+                        <div class="step"><span>2</span>
+                            <h3>Design</h3>
+                            <p>I prepare a design for you to review.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 reveal">
+                        <div class="step"><span>3</span>
+                            <h3>Build</h3>
+                            <p>I turn the approved design into the final work.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 reveal">
+                        <div class="step"><span>4</span>
+                            <h3>Launch</h3>
+                            <p>We publish it and I stay available for changes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="section" id="reviews">
+            <div class="container">
+                <h2 class="title reveal">Client reviews</h2>
+                <div class="row g-4">
+                    <div class="col-md-4 reveal">
+                        <figure class="review">
+                            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i></div>
+                            <blockquote>A short review from a happy client goes here.</blockquote>
+                            <figcaption><b>Client name</b><br><small>Company or job title</small></figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <figure class="review">
+                            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i></div>
+                            <blockquote>A short review from a happy client goes here.</blockquote>
+                            <figcaption><b>Client name</b><br><small>Company or job title</small></figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <figure class="review">
+                            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i></div>
+                            <blockquote>A short review from a happy client goes here.</blockquote>
+                            <figcaption><b>Client name</b><br><small>Company or job title</small></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="cta" id="contact">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 reveal">
+                        <h2>Have a project in mind?</h2>
+                        <p>Tell me what you need and I will reply within one working day.</p>
+                        <p class="mb-1"><i class="bi bi-envelope"></i> hello@example.com</p>
+                        <p class="mb-1"><i class="bi bi-telephone"></i> +966 5X XXX XXXX</p>
+                        <p><i class="bi bi-geo-alt"></i> City, Country</p>
+                    </div>
+                    <div class="col-lg-7 reveal">
+                        <form id="contact-form" class="contact-card" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6"><label for="name" class="form-label">Your name</label><input
+                                        type="text" id="name" class="form-control" required>
+                                    <div class="invalid-feedback">Enter your name.</div>
+                                </div>
+                                <div class="col-md-6"><label for="email" class="form-label">Your email</label><input
+                                        type="email" id="email" class="form-control" required>
+                                    <div class="invalid-feedback">Enter a valid email address.</div>
+                                </div>
+                                <div class="col-12"><label for="message" class="form-label">Message</label><textarea
+                                        id="message" rows="4" class="form-control" required></textarea>
+                                    <div class="invalid-feedback">Write a message.</div>
+                                </div>
+                                <div class="col-12"><button type="submit" class="btn btn-brand btn-lg w-100">Send
+                                        message</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row align-items-center g-3">
+                <div class="col-md-4 text-center text-md-start">&copy; <span id="year">2026</span> Client Name</div>
+                <div class="col-md-4">
+                    <ul class="social list-unstyled d-flex justify-content-center gap-3 mb-0">
+                        <li><a href="https://facebook.com/yourpage" aria-label="Facebook" target="_blank"
+                                rel="noopener"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://instagram.com/yourpage" aria-label="Instagram" target="_blank"
+                                rel="noopener"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="https://x.com/yourpage" aria-label="X" target="_blank" rel="noopener"><i
+                                    class="bi bi-twitter-x"></i></a></li>
+                        <li><a href="https://linkedin.com/in/yourpage" aria-label="LinkedIn" target="_blank"
+                                rel="noopener"><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="https://wa.me/966500000000" aria-label="WhatsApp" target="_blank" rel="noopener"><i
+                                    class="bi bi-whatsapp"></i></a></li>
+                        <li><a href="https://youtube.com/@yourpage" aria-label="YouTube" target="_blank"
+                                rel="noopener"><i class="bi bi-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center text-md-end"><a href="mailto:hello@example.com">hello@example.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" id="totop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
